@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+        
+        <link href='jstest.css' rel='stylesheet' type='text/css'>
+        <script>
+        var debtCollect = ["Paying off debt in collections gives a borrower the opportunity to communicate with credit bureaus to remove this derogatory information from you credit report. ",
+                        
+                        "Paying off debt 're-ages' said debt, restarting the seven years it is supposed to remain on your credit report. ",
+                        
+                        "Paying off debt in collections will not directly improve a borrower's credit score, but it will prevent collections agencies from reselling your debt, and possibly adding another collection to your report - one which the borrower will be in no place to argue against."];
+var ri = Math.floor(Math.random() * debtCollect.length);
+        
+        
+        
+        
+         var loanDefer = ["Student loans can add variety to the types of credit seen on your report, improving your standing in the eyes of lenders.",
+                        
+                        "Student loans in deferment can have a negative impact on credit as it shows lenders the borrower has debt and is making no progress in bringing it down.",
+                        
+                        "Student loan deferments usually have no impact whatsoever on credit scores of student or parent borrower."];
+var ri = Math.floor(Math.random() * loanDefer.length);
+        
+        
+        
+ 
+         var accountNumber = ["Having multiple credit cards open is good for your credit score because it affects some of the important components of your credit score: your open credit card utilization (more credit cards means more available credit), average credit history, and credit mix (total amount and variety of credit lines).",
+                        
+                        "If you have fewer credit card accounts, you will have less credit available to you, which will increase your credit score.",
+                       ];
+var ri = Math.floor(Math.random() * accountNumber.length);
+        
+        
+                               var spreadBalance = ["Your overall credit score will benefit from spreading debt out over several different credit cards.",
+                        
+                        "Credit scores are partially calculated by the number of credit cards you own with balances. Spreading low balances between cards can have a negative impact on your credit score.  Close cards you don't frequently use and pick one or two go to cards.",
+                       ];
+var ri = Math.floor(Math.random() * spreadBalance.length);
+        
+        
+        
+        
+        
+        
+        
+        
+  </script>      
+    </head>
+<body>
+
+<div class="headerContainer">
+    <h1>
+<h1>Score!</h1><h2> Dictionary of Credit Effects
+        </h2>
+    </div>
+    
+    <div class="Container">
+<h3>Paying Off Debt in Collections</h3>
+<p id = "debtCollectEffect"></p>
+        </div>
+    <br>
+    <div class="Container">
+    <h3>Deferring a Student Loan</h3>
+<p id = "loanDeferEffect"></p>
+    </div>
+    <br>
+    <div class="Container">
+  <h3>High Number of Open Accounts.</h3>
+<p id = "accountNumberEffect"></p>
+        </div>
+<br>
+    <div class="Container">
+    <h3>Spreading Low Balance Between Multiple Credit Cards.</h3>
+<p id = "spreadBalanceEffect"></p>
+    </div>
+<br>
+    
+    
+<script>
+  
+document.getElementById("debtCollectEffect").innerHTML = 
+"Effect: " + (debtCollect[ri]);
+    
+    document.getElementById("loanDeferEffect").innerHTML = 
+"Effect: " + (loanDefer[ri]);
+    
+       document.getElementById("accountNumberEffect").innerHTML = 
+"Effect: " + (accountNumber[ri]);
+    
+      document.getElementById("spreadBalanceEffect").innerHTML = 
+"Effect: " + (spreadBalance[ri]);
+    
+    
+</script>
+
+</body>
+</html>
+

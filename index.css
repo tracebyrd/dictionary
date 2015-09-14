@@ -1,0 +1,47 @@
+
+
+body{
+    background-color: yellow;}
+
+h1{
+    font-family: Oswald,sans-serif;
+    font-size: 10vw
+        ;
+    line-height: 45px;
+font-weight: 700;
+    color: green;
+}
+
+
+h2{
+    font-family: Oswald,sans-serif;
+    font-size: 6vw;
+   
+font-weight: 700;
+}
+
+
+h3{
+    font-family: Oswald,sans-serif;
+font-weight: 400;}
+
+
+p{
+    font-family: Oswald,sans-serif;
+font-weight:300;
+}
+
+.headerContainer{
+    position: fixed;
+    width: 27vw;
+   height: 100vh;
+    z-index: 100;
+    border-right: black 1px dotted
+    
+}
+
+.Container{
+    width: 40vw;
+    margin: auto;
+        z-index:1;
+}
